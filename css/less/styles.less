@@ -1,0 +1,303 @@
+@import "reset.less";
+@import "responsive.gs.12col.less";
+
+// COLORS
+@background: #F0F0F0;
+@white: #FFFFFF;
+@black: #2a2a2a;
+
+
+.table {
+	display: table;
+	height: 100%;
+	.table-cell {
+		display: table-cell;
+		vertical-align: middle;
+		
+	}
+}
+.modalgroup {
+	display: none;
+	z-index: 99999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	.modal {
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.6);
+		display: table;
+		padding: 20%;
+		.modalbox {		
+			top: -40px;
+			display: table-cell;
+			vertical-align: middle;
+			background: white;
+			border-radius: 5px;
+			border: 1px solid #666;
+			padding: 30px;
+			position: relative;
+			.closebtn {
+				width: 40px;
+				height: 40px;
+				padding: 10px;
+				border-radius: 20px;
+				background:#fb4604;
+				color: white;
+				text-align: center;
+				position: absolute;
+				top: -8px;
+				right: -8px;
+				cursor: pointer;
+				&:hover {
+					background:lighten(#fb4604, 10%);
+				}
+			}
+			h3 {
+				font-size: 3em;
+				line-height: 1em;
+				margin-bottom: 20px;
+			}
+			strong {
+				font-weight: bold;
+			}
+			td {
+				padding: 5px;
+			}
+			img {
+				display: block;
+				float: right;
+				width: 200px;
+				text-align: center;
+				display: inline-block;
+/* 				height: 200px; */
+			}
+		}
+	}
+}
+.contentbar {
+	background: rgba(0,0,0,0.3);
+	margin: 50px 0;
+	text-align: center;
+/* 	height: 150px; */
+		
+		a {
+			text-align: center;
+			padding: 20px;
+			display: block;
+			cursor: pointer;
+		}
+	
+			img {
+/* 				max-height: 110px; */
+/* 				max-width: 200px; */
+				display: block;
+/* 				margin: 20px 0; */
+				
+			}
+		p {
+			text-align: center;
+			padding: 20px;
+			display: block;
+			color: @white;
+		}
+	
+}
+
+.special {
+	width: 100%;
+	.col {
+		text-align: center;
+	}
+}
+.extra_content {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	color: white;
+	h3 {
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	p {
+		line-height: 1.5em;
+		font-size: 1.25em;
+		font-weight: normal;
+	}
+	
+}
+body {
+	
+	background: url("../i/coworking_bg.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	font-family: "freight-sans-pro",sans-serif;
+/* 	font-style: normal; */
+/* 	font-weight: 400; */
+	
+	header {
+		
+		//margin-bottom: 120px;
+		
+		.logo {
+			text-align: center;
+		}
+		
+		img {
+			
+			height: 70%;
+			width: 70%;
+/* 			margin: 80px auto 10px; */
+			
+		}
+		h1 {
+			font-size: 40px;
+			color: white;
+			font-weight: 300;
+			font-style: normal;
+			text-align: center;
+			
+		}
+	}
+	#map {
+		margin-bottom: 30px;
+	}
+	.spaces {
+		.spacebg {
+			background: rgba(255,255,255,0.8);
+			padding: 30px;
+		}
+		.space {
+			margin: 15px 0;
+			
+			p { 
+			font-size: 1em;
+			color: @black;
+			font-weight: 400;
+			font-style: normal;	
+			a {
+				text-decoration: none;
+				color: #0d7e80;
+			}
+			a:hover {
+					color: darken(#0d7e80, 10%);
+				}
+		}
+		}
+		
+		.spaceslinks {
+				font-size: 1.2em;
+				color: @black;
+				font-weight: 600;
+				font-style: normal;
+				text-decoration: none;
+				padding: 10px 0;
+		.infolink {
+			text-decoration: none;
+		}
+		
+		
+	}
+
+	
+	
+}
+img {
+	//DONT REMOVE YOU SHIT HEAD!!!
+	width: 100%;
+	height: auto;
+}
+footer {
+	background: @black;
+	margin-top: 30px;
+	
+	
+	.footer_left {
+		display: inline-block;
+		float: left;
+		a {
+		text-decoration: none;
+		color: @white;
+		padding-bottom: 20px;
+		float: left;
+		margin-top: 25px;
+		margin-left: 20px;
+		}
+		a:hover {
+			color: darken(@white, 20%);
+		}
+	}
+	
+	.lls { /* LLS Logo */
+		height: 35px;
+		width: 35px;
+		position: fixed;
+		bottom: 0;
+		background: #eee;
+		display: block;
+		cursor: pointer;
+		right: 0;
+		a {
+			display: block;
+			padding: 5px;
+			}img {
+				border: none;
+			}
+		}
+	}	
+}
+html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 55% }
+      .display-on-mobile {
+	display: none;
+}
+
+.hide-on-mobile {
+	display: block;
+}
+@media screen and (max-width: 600px) {
+  .display-on-mobile {
+	  display: block!important;
+  }
+  .hide-on-mobile {
+	  display: none!important;
+  }
+  
+  
+.contentbar {
+	background: rgba(0,0,0,0.3);
+	margin: 50px 0;
+	text-align: center;
+/* 	height: 150px; */
+		
+		a {
+			text-align: center;
+			padding: 20px;
+			display: block;
+			cursor: pointer;
+		}
+	
+			img {
+/* 				max-height: 110px; */
+				max-width: 150px;
+				display: inline-block;
+				text-align: center;
+/* 				margin: 20px 0; */
+				
+			}
+		p {
+			text-align: center;
+			padding: 20px;
+			display: block;
+			color: @white;
+		}
+	
+}
+
+  
+}
+     
