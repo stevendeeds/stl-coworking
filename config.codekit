@@ -421,6 +421,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/i\/spacepic_claim.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142523,
+		"inputAbbreviatedPath": "\/i\/spacepic_claim.jpg",
+		"outputAbbreviatedPath": "\/i\/spacepic_claim.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/i\/spacepic_hive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306062,
+		"inputAbbreviatedPath": "\/i\/spacepic_hive.jpg",
+		"outputAbbreviatedPath": "\/i\/spacepic_hive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/i\/spacepic_lab.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76087,
+		"inputAbbreviatedPath": "\/i\/spacepic_lab.jpg",
+		"outputAbbreviatedPath": "\/i\/spacepic_lab.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/i\/spacepic_nebula.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129785,
+		"inputAbbreviatedPath": "\/i\/spacepic_nebula.jpg",
+		"outputAbbreviatedPath": "\/i\/spacepic_nebula.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/i\/spacepic_ta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602086,
+		"inputAbbreviatedPath": "\/i\/spacepic_ta.jpg",
+		"outputAbbreviatedPath": "\/i\/spacepic_ta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/i\/ta.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

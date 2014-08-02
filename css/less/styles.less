@@ -65,12 +65,10 @@
 			td {
 				padding: 5px;
 			}
-			img {
+			img.modallogo {
 				display: block;
-				float: right;
 				width: 200px;
-				text-align: center;
-				display: inline-block;
+				margin-bottom: 20px;
 /* 				height: 200px; */
 			}
 		}
@@ -131,14 +129,17 @@
 	margin-bottom: 80px;
 	color: white;
 	h3 {
-		font-size: 1.8em;
+		font-size: 1.6em;
 		font-weight: bold;
 		margin-bottom: 10px;
 	}
 	p {
-		line-height: 1.5em;
+		line-height: 1.4em;
 		font-size: 1.25em;
 		font-weight: normal;
+	}
+	.col {
+		padding: 10px;
 	}
 	
 }
@@ -221,7 +222,7 @@ body {
 	
 	
 }
-img {
+img{
 	//DONT REMOVE YOU SHIT HEAD!!!
 	width: 100%;
 	height: auto;
@@ -229,25 +230,22 @@ img {
 footer {
 	background: @black;
 	margin-top: 30px;
-	
-	
-	.footer_left {
-		display: inline-block;
-		float: left;
-		a {
-		text-decoration: none;
-		color: @white;
-		padding-bottom: 20px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
+	padding: 20px;	
+	line-height: 1;
+	a {
+			text-decoration: none;
+			color: @white;
 		}
 		a:hover {
 			color: darken(@white, 20%);
 		}
+	
+	.footer_right {
+		text-align: right;
+/* 		width: 100%; */
 	}
 	
-	.lls { /* LLS Logo */
+	.lls { 
 		height: 35px;
 		width: 35px;
 		position: fixed;
@@ -316,4 +314,5 @@ html { height: 100% }
 
   
 }
+
      
