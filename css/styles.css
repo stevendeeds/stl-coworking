@@ -475,7 +475,7 @@ body {
   padding: 0;
 }
 #map-canvas {
-  height: 800px;
+  height: 500px;
 }
 .display-on-mobile {
   display: none;
