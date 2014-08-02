@@ -175,6 +175,13 @@ function initialize() {
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
+		},
+		{
+		    featureType: "administrative.city",
+		    elementType: "labels",
+		    stylers: [
+		        { visibility: "off" }
+		    ]
 		}
 	];
       
