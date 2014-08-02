@@ -619,7 +619,7 @@
 		},
 	"\/js\/maps.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/maps.js",
 		"outputAbbreviatedPath": "\/js\/min\/maps-min.js",
@@ -652,7 +652,7 @@
 		},
 	"\/js\/respond.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/respond.min-min.js",
@@ -742,6 +742,20 @@
 	],
 "lastSavedByUser": "Steven Deeds",
 "manualImportLinks": {
+	"\/js\/main.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/respond.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/maps.js",
+			"position": 1,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

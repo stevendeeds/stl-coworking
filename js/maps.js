@@ -235,7 +235,8 @@ function initialize() {
         
         
         
-        var networkCoordinates = [
+       /*
+ var networkCoordinates = [
 	    new google.maps.LatLng(38.5930323,-90.225859),
 	    new google.maps.LatLng(38.628183, -90.189745),
 	    new google.maps.LatLng(38.632384, -90.201238),
@@ -256,6 +257,7 @@ function initialize() {
 	  });
 	
 	  networkPath.setMap(map);
+*/
         
         
         
