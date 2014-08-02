@@ -342,7 +342,7 @@
 		"outputAbbreviatedPath": "\/i\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/i\/logoicon.png": {
 		"fileType": 32768,

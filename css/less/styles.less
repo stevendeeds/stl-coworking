@@ -10,6 +10,7 @@
 .table {
 	display: table;
 	height: 100%;
+	width: 100%;
 	.table-cell {
 		display: table-cell;
 		vertical-align: middle;
@@ -109,6 +110,21 @@
 	.col {
 		text-align: center;
 	}
+	a {
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			background: rgba(0,0,0,0.2);
+			-webkit-transition: all 0.2s ease-in-out;
+			-moz-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+		}
+	}
 }
 .extra_content {
 	margin-top: 80px;
@@ -148,8 +164,8 @@ body {
 		
 		img {
 			
-			height: 70%;
-			width: 70%;
+			height: 80%;
+			width: 80%;
 /* 			margin: 80px auto 10px; */
 			
 		}

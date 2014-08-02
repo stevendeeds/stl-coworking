@@ -257,6 +257,7 @@ table {
 .table {
   display: table;
   height: 100%;
+  width: 100%;
 }
 .table .table-cell {
   display: table-cell;
@@ -351,6 +352,21 @@ table {
 .special .col {
   text-align: center;
 }
+.special a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.special a:hover {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
 .extra_content {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -380,8 +396,8 @@ body header .logo {
   text-align: center;
 }
 body header img {
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
   /* 			margin: 80px auto 10px; */
 }
 body header h1 {
