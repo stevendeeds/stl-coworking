@@ -531,4 +531,7 @@ body {
     display: block;
     color: #ffffff;
   }
+  .modalgroup .modal {
+    padding: 0!important;
+  }
 }
