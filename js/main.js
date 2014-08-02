@@ -6,7 +6,7 @@ $("#nebulainfo").click(function() {
 	$("#nebula").fadeIn();
 });
 
-$(".closebtn").click(function() {
+$(".modalgroup").click(function() {
 	$(".modalgroup").fadeOut();
 });
 $("#claimstlinfo").click(function() {
